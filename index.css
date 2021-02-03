@@ -1,1 +1,122 @@
 /* Your CSS goes here */
+body{
+    margin: 0 auto;
+    width: 100%;
+}
+
+
+
+.header-title{
+   display:inline;
+
+}
+.header-h {
+    display: inline-block;
+    color: white;
+    
+    margin: 25px 
+    
+}
+nav{
+    float: right;
+    font-size: 25px;
+    padding: 40px 30px;
+
+    
+ 
+    
+}
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    color: #c4c2c2;
+    padding: 18px;
+    
+}
+header{
+    background-color: #454f6f;
+   
+    padding: 18px 13px;
+    width: 100%;;
+    
+ 
+}
+.content{
+    background-color:#f0f4ff;
+    margin: 40px 130px 20px 130px;
+    padding: 30px 25px;
+    
+}
+.content h1{
+    color:#333;
+    text-align: center;
+
+}
+.content p{
+    padding: 13px 18px  18px;
+}
+.service{
+    
+    
+    margin: 50px 130px;
+}
+.service #left{
+ float: left;
+ width: 50%;
+ 
+}
+
+.service #right{
+    float: right;
+    width: 50%;
+   
+}
+#left p{
+    text-align: justify;
+    margin-right: 80px;
+}
+#right p{
+    text-align: justify;
+    margin-right: 80px;
+}
+.footer-container{
+    display:flex;
+    flex-direction:row;
+    background:#455070;
+    color:#f2f2f2;
+    padding:15px;
+  
+  }
+  .first-footer{
+    margin: 30px 120px  ;
+
+  }
+  .first-footer p{
+      font-size: 16px;
+      color: #c4c2c2;
+  }
+ 
+  .footer-menu{
+    margin: auto ;
+    padding-left:15px;
+    
+  }
+  .footer-menu a{
+      text-decoration: none;
+      color:#c4c2c2;
+      font-size: 18px;
+
+  }
+   lu{
+    list-style-type:none;
+     font-size:16px;
+     line-height:25px;
+  
+  }
+  .copy-right{
+    background:#e6834c;
+    padding: 12px;
+    text-align:center;
+    color:white;  
+  }
+  
